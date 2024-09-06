@@ -1,19 +1,40 @@
+@use "bulma/sass/grid/columns";
+
 .navbar{
     width: 1000px;
     height: 100px;
     margin: 0px auto;
     float: top;
-    background-color: black;
-    background: rgba( 0, 0, 0, 0.45 );
-box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
-backdrop-filter: blur( 14px );
--webkit-backdrop-filter: blur( 14px );
-border-radius: 10px;
-border: 1px solid rgba(255, 0, 0, 0.18);
+    background-color: rgba(0, 0, 0, 0.233);
+    background: rgba(180, 167, 167, 0.205);
+    box-shadow: 0 4px 16px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+
 }
 #tup{
     font-family: fantasy;
     font-size: 24px;
     color: white;
-    
+}
+
+.column{
+    height: 100vh;
+}
+.column:nth-child(1){
+    background-color: red;
+}
+.column:nth-child(2){
+    background-color: rgb(73, 0, 0);
+}
+.column:nth-child(3){
+    background-color: rgb(136, 6, 6);
+}
+.column:nth-child(4){
+    background-color: rgb(141, 84, 84);
+}
+.column:nth-child(5){
+    background-color: rgb(51, 18, 18);
 }
