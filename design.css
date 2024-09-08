@@ -3,37 +3,27 @@
 @use "bulma/sass/themes";
 @use "bulma/sass/elements/button";
 @use "bulma/sass/elements/title";
-@use "bulma/sass/components/message";
+@use "bulma/sass/components/message" .sectionContainer;
 
-.navbar{
-    width: 1000px;
-    height: 100px;
-    margin: 0px auto;
-    float: top;
-    background-color: rgba(0, 0, 0, 0.233);
-    background: rgba(180, 167, 167, 0.205);
-    box-shadow: 0 4px 16px 0 rgba(255, 255, 255, 0.37);
-    backdrop-filter: blur( 14px );
-    -webkit-backdrop-filter: blur( 14px );
-    border-radius: 10px;
-    border: 1px solid rgba(0, 0, 0, 0.18);
-
+body{display: flex;
+border: solid 1px red;
+justify-content: center;
+min-height: 800px;
+align-items: center;
 }
-#tup{
-    font-family: fantasy;
-    font-size: 24px;
-    color: white;
+.container{
+    width: 500px;
+    height: 300px;
+    border: solid 1px red;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
-.column{
-    height: 100vh;
+.subutton{
+   
 }
-.column:nth-child(1){
-    background-color: red;
-}
-.column:nth-child(2){
-    background-color: rgb(73, 0, 0);
-}
-.column:nth-child(3){
-    background-color: rgb(136, 6, 6);
+.lgButton{
+    
 }
