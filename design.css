@@ -1,4 +1,9 @@
 @use "bulma/sass/grid/columns";
+@use "bulma/sass/base";
+@use "bulma/sass/themes";
+@use "bulma/sass/elements/button";
+@use "bulma/sass/elements/title";
+@use "bulma/sass/components/message";
 
 .navbar{
     width: 1000px;
@@ -31,10 +36,4 @@
 }
 .column:nth-child(3){
     background-color: rgb(136, 6, 6);
-}
-.column:nth-child(4){
-    background-color: rgb(141, 84, 84);
-}
-.column:nth-child(5){
-    background-color: rgb(51, 18, 18);
 }
