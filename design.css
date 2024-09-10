@@ -4,26 +4,3 @@
 @use "bulma/sass/elements/button";
 @use "bulma/sass/elements/title";
 @use "bulma/sass/components/message" .sectionContainer;
-
-body{display: flex;
-border: solid 1px red;
-justify-content: center;
-min-height: 800px;
-align-items: center;
-}
-.container{
-    width: 500px;
-    height: 300px;
-    border: solid 1px red;
-    background-color: black;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.subutton{
-   
-}
-.lgButton{
-    
-}
